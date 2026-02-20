@@ -39,7 +39,7 @@ function BackgroundMusic() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/valentine-project-2026/">
       <BackgroundMusic />
       <Routes>
         <Route path="/" element={<LandingPage />} />
